@@ -1,0 +1,10 @@
+{
+  "name": "waraqa-pdf-editor",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Arabic browser-local visual PDF editor",
+  "scripts": {
+    "test": "node --test tests/object-editor.test.mjs && node tests/editor-regression.cjs",
+    "check": "node --check dist/app.mjs && node --check dist/object-editor.mjs"
+  }
+}
